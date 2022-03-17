@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkProgramming", "Netwo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{016F6042-0D33-4ED4-8855-8A59037187DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemIO", "SystemIO\SystemIO.csproj", "{5F27D10B-9B8B-4A99-862C-DE880A89FD7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{016F6042-0D33-4ED4-8855-8A59037187DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016F6042-0D33-4ED4-8855-8A59037187DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016F6042-0D33-4ED4-8855-8A59037187DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F27D10B-9B8B-4A99-862C-DE880A89FD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F27D10B-9B8B-4A99-862C-DE880A89FD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F27D10B-9B8B-4A99-862C-DE880A89FD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F27D10B-9B8B-4A99-862C-DE880A89FD7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
