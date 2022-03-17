@@ -1,3 +1,3 @@
 # 💻 OOP
 
-- Here some examples from OOP
+Here some examples from OOP
