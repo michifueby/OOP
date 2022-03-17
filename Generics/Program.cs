@@ -27,6 +27,25 @@
 
             // .MyFirstElement
             int firstNumber = intArray2.MyFirstElement();
+            Console.WriteLine(firstNumber);
+
+            // Generic Class with data structure
+            MyList<object> myList = new MyList<object>(7);
+            string firstContent = "Test";
+            string secondContent = "Test2";
+
+            // Add elements to array
+            myList.Add(firstContent);
+            myList.Add(firstContent);
+            myList.Add(firstContent);
+            myList.Add(secondContent);
+
+            // Print elements
+            myList.Print();
+            
+            // Print count of elements
+            int count = myList.Count();
+            Console.WriteLine(count);
 
             Console.ReadKey();
 
