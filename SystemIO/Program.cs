@@ -1,6 +1,8 @@
 ﻿namespace SystemIO
 {
     using System;
+    using System.Collections;
+    using System.Collections.Generic;
     using System.IO;
     using System.Text;
 
@@ -78,8 +80,12 @@
                 Directory.Delete(@"C:/Temp/Test", true);
             }
 
+            // Set CreationTime
             Directory.SetCreationTime("test.txt", new DateTime(2000, 11, 8, 15, 10, 7));
             Directory.SetCreationTimeUtc("test.txt", new DateTime(2000, 11, 8, 15, 10, 7));
+
+            // Move directory
+            Directory.Move(@"C:\Temp\Test\Test1", @"C:\Temp\test4");
 
             // Get filename
             string fileName = Path.GetFileName(@"C:/Temp/Test/test.txt");
@@ -88,6 +94,29 @@
             // Get extension from file
             string extension = Path.GetExtension(@"C:/Temp/Test/test.txt");
             Console.WriteLine(extension);
+
+            // Find all directories from specific path
+            string[] directories = Directory.GetDirectories(@"C:\Temp\test", "*", SearchOption.AllDirectories);
+
+            // Find all entries from path
+            string[] directoriesAndFiles = Directory.GetFileSystemEntries(@"C:\Temp\test", "*", SearchOption.AllDirectories);
+
+            // Get all directories with IEnumerable
+            var directories2 = Directory.EnumerateDirectories(@"C:\Temp\test");
+            // or
+            IEnumerable<string> allDirectories = Directory.EnumerateDirectories(@"C:\Temp\test");
+
+            // Get all directories and files with IEnumerable
+            var directoriesAndFiles2 = Directory.EnumerateFileSystemEntries(@"C:\Temp\test");
+            // or
+            IEnumerable<string> directoriesAndFiles3 = Directory.EnumerateDirectories(@"C:\Temp\test");
+
+            // Hide a directory
+            DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Temp\test");
+            directoryInfo.Attributes = FileAttributes.Directory | FileAttributes.Hidden;
+
+            // Unhide a directory
+            directoryInfo.Attributes = FileAttributes.Directory;
 
             Console.ReadKey();
         }
