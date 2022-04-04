@@ -35,6 +35,25 @@
 
                 var deserializeSecondPerson = (Person)xmlFormatter.Deserialize(xmlStream);
             }
+
+            // Serialize with Surroagte
+            using (FileStream fileStream = new FileStream("Person2.txt", FileMode.Create, FileAccess.ReadWrite))
+            {
+                SurrogateSelector surrogateSelector = new SurrogateSelector();
+                surrogateSelector.AddSurrogate(typeof(Person), new StreamingContext(StreamingContextStates.All), new PersonSurrogate());
+
+                IFormatter binaryFormatter = new BinaryFormatter();
+
+                binaryFormatter.SurrogateSelector = surrogateSelector;
+                
+                // Serialize 
+                binaryFormatter.Serialize(fileStream, secondPerson);
+                
+                // Deserialize
+                fileStream.Seek(0, SeekOrigin.Begin);
+                Person person2 = (Person)binaryFormatter.Deserialize(fileStream);
+                fileStream.Close();
+            }
         }
     }
 }
