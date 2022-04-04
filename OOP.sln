@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemIO", "SystemIO\System
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize", "Serialize\Serialize.csproj", "{E578BD9C-DC00-4A30-A6CD-3DE85BC274E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processes", "Processes\Processes.csproj", "{11EDAC50-D052-4468-B68A-B79CCABD646F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E578BD9C-DC00-4A30-A6CD-3DE85BC274E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E578BD9C-DC00-4A30-A6CD-3DE85BC274E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E578BD9C-DC00-4A30-A6CD-3DE85BC274E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
