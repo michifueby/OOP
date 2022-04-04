@@ -135,6 +135,19 @@
             // Temp file path
             string tempFilePath = Path.GetTempPath();
 
+            // Move file
+            File.Move(@"C:\Temp\Test\Test1\test.txt", @"C:\Temp\test4\test.txt");
+           
+            // Set creation time of file
+            File.SetCreationTime("test.txt", new DateTime(2000, 11, 8, 15, 10, 7));
+
+            // Hide a file
+            FileInfo fileInfo = new FileInfo(@"C:\Temp\test4\test.txt");
+            fileInfo.Attributes = FileAttributes.Normal | FileAttributes.Hidden;
+
+            // Unhide a file
+            fileInfo.Attributes = FileAttributes.Normal;
+
             Console.ReadKey();
         }
 
