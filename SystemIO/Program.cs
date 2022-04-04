@@ -118,6 +118,23 @@
             // Unhide a directory
             directoryInfo.Attributes = FileAttributes.Directory;
 
+            // Paths
+
+            // Get directory path seperator
+            char directoryPathSeperator = Path.DirectorySeparatorChar;
+
+            // Get path seperator
+            char pathSeperator = Path.PathSeparator;
+
+            // Get volume seperator
+            char volumeSeperator = Path.VolumeSeparatorChar;
+
+            // Temp file name
+            string tempFileName = Path.GetTempFileName();
+
+            // Temp file path
+            string tempFilePath = Path.GetTempPath();
+
             Console.ReadKey();
         }
 
