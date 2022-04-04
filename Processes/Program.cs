@@ -51,11 +51,11 @@
 
         private static void ShowProcessInfoFromAllProcesses()
         {
-            Process[] allProcess = Process.GetProcesses();
+            Process[] allProcesses = Process.GetProcesses();
 
             Console.WriteLine("Processes:");
 
-            foreach (var process in allProcess)
+            foreach (var process in allProcesses)
             {
                 Console.WriteLine(process.Id + ":" + process.ProcessName);
             }
