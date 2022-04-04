@@ -36,7 +36,7 @@
                 var deserializeSecondPerson = (Person)xmlFormatter.Deserialize(xmlStream);
             }
 
-            // Serialize with Surroagte
+            // Serialize with Surrogate
             using (FileStream fileStream = new FileStream("Person2.txt", FileMode.Create, FileAccess.ReadWrite))
             {
                 SurrogateSelector surrogateSelector = new SurrogateSelector();
