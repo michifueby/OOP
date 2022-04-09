@@ -61,6 +61,10 @@
 
             myTask.Wait();
 
+            // Async Method
+            var task = ProcessAsync();
+            task.Wait();
+
             Console.ReadKey();
         }
 
@@ -83,6 +87,55 @@
         private static void PrintTest(object data)
         {
             Console.WriteLine($"This is a test, threadID: {Thread.CurrentThread.ManagedThreadId}");
+        }
+
+        // Async Method
+        private static async Task ProcessAsync()
+        {
+            Console.WriteLine("Starting...");
+
+            Task[] tasks = new Task[5];
+
+            for (int i = 0; i < tasks.Length; i++)
+            {
+                tasks[i] = CalculateAsync(10 * 1000000 / 2);
+            }
+
+            int result = HeavyCalculate(10 * 70000);
+
+            Console.WriteLine("Process heavy async heavy work done!");
+
+            foreach (var task in tasks)
+            {
+                await task;
+            }
+
+            Console.WriteLine("ProcessAsync() await done!");
+        }
+
+        private static async Task CalculateAsync(int value)
+        {
+            Console.WriteLine($"Calculate value: {value}, {Thread.CurrentThread.ManagedThreadId}");
+
+            await Task.Run<int>(() => { return HeavyCalculate(value); });
+
+            Console.WriteLine($"Calculation waiting for done, {Thread.CurrentThread.ManagedThreadId}");
+        }
+
+        private static int HeavyCalculate(int value)
+        {
+            Console.WriteLine("Start heavy calculation!");
+
+            int result = (value * 5000) % 2;
+
+            for (int i = 0; i < 10000; i++)
+            {
+                result++;
+            }
+
+            Console.WriteLine($"Calculate result from value, {Thread.CurrentThread.ManagedThreadId}!");
+
+            return result;
         }
     }
 }
