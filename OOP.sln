@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize", "Serialize\Seri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processes", "Processes\Processes.csproj", "{11EDAC50-D052-4468-B68A-B79CCABD646F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{DB25A59B-B25A-4866-A16A-74734B4EFCBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EDAC50-D052-4468-B68A-B79CCABD646F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
