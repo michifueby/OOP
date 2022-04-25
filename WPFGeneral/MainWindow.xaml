@@ -18,12 +18,12 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
-        <!-- Confirm and Exit Button-->
+        <!-- Confirm and Exit Button -->
         <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button Name="ConfirmButton" Content="Confirm" Margin="0 0 20 5" Width="90" Background="LightGray"  FontSize="15" FontWeight="Bold"/>
             <Button Name="ExitButton" Content="Exit" Margin="0 0 10 5" Width="90" Background="LightGray" FontSize="15" FontWeight="Bold"/>
         </StackPanel>
-        <!-- Personal informations-->
+        <!-- Personal informations -->
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top">
             <Label Content="Firstname:" FontSize="15"/>
             <TextBox TextAlignment="Justify" Width="120" Height="25" Margin="0 5"/>
@@ -31,6 +31,11 @@
             <TextBox TextAlignment="Justify" Width="120" Height="25" Margin="0 5"/>
             <Label Content="Age:" FontSize="15"/>
             <TextBox TextAlignment="Justify" Width="120" Height="25" Margin="0 5"/>
+        </StackPanel>
+        <!-- Settings -->
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top">
+            <Label Content="Settings" FontSize="15" FontWeight="Bold"/>
+            <RadioButton Content="Activate Test" FontSize="15"/>
         </StackPanel>
        
     </Grid>
