@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processes", "Processes\Proc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{DB25A59B-B25A-4866-A16A-74734B4EFCBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGeneral", "WPFGeneral\WPFGeneral.csproj", "{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB25A59B-B25A-4866-A16A-74734B4EFCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
