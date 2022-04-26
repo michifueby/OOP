@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGeneral", "WPFGeneral\WPFGeneral.csproj", "{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPeopleManagerUserInterface", "WPFPeopleManagerUserInterface\WPFPeopleManagerUserInterface.csproj", "{C1AC9504-D5FE-423D-B9DB-EBE9694ABF2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AB1F12E-B5BB-4D80-8D00-2D3692ECA871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AC9504-D5FE-423D-B9DB-EBE9694ABF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AC9504-D5FE-423D-B9DB-EBE9694ABF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AC9504-D5FE-423D-B9DB-EBE9694ABF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AC9504-D5FE-423D-B9DB-EBE9694ABF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
