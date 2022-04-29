@@ -24,5 +24,7 @@ namespace WPFPeopleManagerUserInterface
         {
             InitializeComponent();
         }
+        private void SliderValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) => this.heightText.Text = string.Format("{0:000} cm", (object)this.heightSlider.Value);
+
     }
 }
