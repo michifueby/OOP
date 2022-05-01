@@ -96,7 +96,7 @@
                         <Label>Settings</Label>
                     </StackPanel>
                 </TabItem.Header>
-                <GroupBox Name="GrouBox3" Background="LightGray" Margin="30 20 30 0" Grid.Row="1">
+                <GroupBox Name="GrouBox3" Background="LightGray" Margin="30 20 30 30" Grid.Row="1">
                     <GroupBox.Header>
                         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="20" Background="White">
                             <Label Content="Save/load settings"/>
@@ -105,16 +105,16 @@
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"></RowDefinition>
-                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto"></ColumnDefinition>
                             <ColumnDefinition Width="*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="0" Margin="5 10 10 10">
-                            <Label Content="File path:"/>
-                            <TextBox Height="25" Width="430" Margin="28 5" IsReadOnly="True"/>
-                            <Button Grid.Row="0" Grid.Column="2" Margin="5 5" Padding="10 0 20 0">Browse...</Button>
+                            <Label Content="File path:" Grid.Row="0" Grid.Column="0"/>
+                            <TextBox Height="30" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="30 5" Width="400" IsReadOnly="True"/>
+                            <Button Grid.Row="1" Grid.Column="1" Margin="5 5" Padding="10 0 20 0">Browse...</Button>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Margin="5 10 10 10">
                             <Label Content="File format:"/>
