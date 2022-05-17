@@ -11,7 +11,7 @@
     <Grid>
         
         <Grid.Resources>
-            <viewModel:Counter x:Key="counter"/>
+            <viewModel:CounterVM x:Key="counter"/>
             <converter:DateTimeToAngleConverter x:Key="converter"/>
             <Style TargetType="Line" x:Key="lineStyle">
                 <Setter Property="StrokeThickness" Value="1.5"/>
@@ -22,7 +22,7 @@
         <Canvas Margin="20" Width="300" Height="300">
             
             <Canvas.DataContext>
-                <viewModel:Counter></viewModel:Counter>
+                <viewModel:CounterVM></viewModel:CounterVM>
             </Canvas.DataContext>
             
             <!-- Clock Animation -->
@@ -59,7 +59,7 @@
             </ItemsControl>
             
             <!-- Clock form -->
-            <Ellipse Width="300" Height="300" Stroke="Black" StrokeThickness="3" Fill="Gray" Opacity="0.5">
+            <Ellipse Width="300" Height="300" Stroke="Black" StrokeThickness="3">
             </Ellipse>
             <!-- hours -->
             <Line X1="150" Y1="150" X2="150" Y2="15" StrokeThickness="2">

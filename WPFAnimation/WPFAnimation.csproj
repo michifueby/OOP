@@ -68,7 +68,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Converter\DateTimeToAngleConverter.cs" />
-    <Compile Include="ViewModel\Counter.cs" />
+    <Compile Include="ViewModel\CounterVM.cs" />
     <Compile Include="View\Clock.xaml.cs">
       <DependentUpon>Clock.xaml</DependentUpon>
     </Compile>

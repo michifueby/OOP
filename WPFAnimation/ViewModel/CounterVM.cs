@@ -4,7 +4,7 @@
     using System.ComponentModel;
     using System.Timers;
 
-    public class Counter : INotifyPropertyChanged 
+    public class CounterVM : INotifyPropertyChanged 
     {
         public DateTime Now
         {
@@ -14,7 +14,7 @@
             }
         }
 
-        public Counter()
+        public CounterVM()
         {
             Timer timer = new Timer(1);
             timer.Elapsed += this.Timer_Elapsed;
