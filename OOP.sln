@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPeopleManagerUserInterfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{51912F63-0AF8-4AA5-82DE-853D466B0660}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAnimation", "WPFAnimation\WPFAnimation.csproj", "{BCA2E3A2-447A-4750-B11F-8B57852CBA69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{51912F63-0AF8-4AA5-82DE-853D466B0660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51912F63-0AF8-4AA5-82DE-853D466B0660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51912F63-0AF8-4AA5-82DE-853D466B0660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFAnimation.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAnimation.View"
+        xmlns:viewModel="clr-namespace:WPFAnimation.ViewModel"
+        mc:Ignorable="d"
+        Title="Clock" SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Grid>
+        <!-- Clock -->
+        <local:Clock></local:Clock>
+    </Grid>
+</Window>
