@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAnimation", "WPFAnimation\WPFAnimation.csproj", "{BCA2E3A2-447A-4750-B11F-8B57852CBA69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assemblies", "Assemblies\Assemblies.csproj", "{6BD3C4D9-954E-4A0B-B2A5-615E2E98AA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{ED3A0564-C28A-4F8B-92AD-6876E752131E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA2E3A2-447A-4750-B11F-8B57852CBA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD3C4D9-954E-4A0B-B2A5-615E2E98AA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD3C4D9-954E-4A0B-B2A5-615E2E98AA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD3C4D9-954E-4A0B-B2A5-615E2E98AA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD3C4D9-954E-4A0B-B2A5-615E2E98AA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3A0564-C28A-4F8B-92AD-6876E752131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3A0564-C28A-4F8B-92AD-6876E752131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3A0564-C28A-4F8B-92AD-6876E752131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3A0564-C28A-4F8B-92AD-6876E752131E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
