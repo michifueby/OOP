@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assemblies-II", "Assemblies
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAssemblies", "DynamicAssemblies\DynamicAssemblies.csproj", "{D2DC266E-2FC8-4C03-9A61-2C21894B4F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAssemblies-II", "DynamicAssemblies-II\DynamicAssemblies-II.csproj", "{DE9EE8F9-0370-4771-BADB-F1D220E74F67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D2DC266E-2FC8-4C03-9A61-2C21894B4F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2DC266E-2FC8-4C03-9A61-2C21894B4F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2DC266E-2FC8-4C03-9A61-2C21894B4F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9EE8F9-0370-4771-BADB-F1D220E74F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9EE8F9-0370-4771-BADB-F1D220E74F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9EE8F9-0370-4771-BADB-F1D220E74F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9EE8F9-0370-4771-BADB-F1D220E74F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
