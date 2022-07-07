@@ -4,3 +4,5 @@
 - Connect methods: ```methodId>methodId```
 - Execute the pipeline: ```execute```
 - Close the PipeLineBuilder: ```exit```
+
+## Each Assembly must includes the custom attributes ```[Pipeline] and [PipelineDescription]
